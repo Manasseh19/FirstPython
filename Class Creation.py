@@ -64,12 +64,12 @@ class Director(Employee):
 
 drctr1 = Director(303, 300000)
 
-# print(type(drctr1))
-# print(drctr1)
-#
-# print(drctr1.salary)
-# drctr1.give_raise()
-# print(drctr1.salary)
+print(type(drctr1))
+print(drctr1)
+
+print(drctr1.salary)
+drctr1.give_raise()
+print(drctr1.salary)
 
 emp1 = Employee(101, 100000)
 mgr1 = Manager(202, 150000)
